@@ -1,13 +1,10 @@
 import './App.css';
-import Header from './components/Header';
-import Characters from './components/Characters';
+import Form from './components/Formulario';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Characters />
-      <h1>Hola Mundo</h1>
+    <div className="container mt-5">
+      <Form />
     </div>
   );
 }
